@@ -31,3 +31,13 @@ logs/
 
 # Spec files
 .kiro/
+
+# Temporary and generated files
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
+.jqwik-database
+cache-nodes.dat
+TASK_*.md
