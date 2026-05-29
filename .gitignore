@@ -29,15 +29,12 @@ logs/
 # Compiled
 *.class
 
-# Spec files
-.kiro/
+# Project documentation and planning
+.project-docs/
+.specs/
 
 # Temporary and generated files
 *.bak
 *.tmp
-*.swp
-*.swo
-*~
 .jqwik-database
 cache-nodes.dat
-TASK_*.md
