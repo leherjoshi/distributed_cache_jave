@@ -341,6 +341,11 @@ public class CacheNodeImpl implements CacheNode {
     }
     
     @Override
+    public MetricsCollector getMetricsCollector() {
+        return metricsCollector;
+    }
+    
+    @Override
     public HealthStatus getHealthStatus() {
         return healthMonitor.getNodeStatus(nodeId);
     }

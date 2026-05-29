@@ -51,6 +51,11 @@ public interface CacheNode extends AutoCloseable {
     NodeMetrics getMetrics();
     
     /**
+     * Returns the metrics collector for this node.
+     */
+    MetricsCollector getMetricsCollector();
+    
+    /**
      * Returns current node health status.
      */
     HealthStatus getHealthStatus();
